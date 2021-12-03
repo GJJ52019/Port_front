@@ -21,8 +21,11 @@ function About(props) {
   const loaded = () => (
     <div>
       <h2>{about.name}</h2>
+      <p>Tool Box: Python, Javascript, Html, CSS,  React, Django, MongoDB, C++</p>
       <h3>{about.email}</h3>
       <p>{about.bio}</p>
+      <p>resume: </p>
+      <a href="https://drive.google.com/file/d/1_14r5ANeD37psazF3dflEzmceV5VrIUQ/view?usp=sharing" download>Jenks.pdf</a> 
     </div>
   );
 
